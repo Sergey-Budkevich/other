@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.request {
+    max-width: 1604px;
+    width: 100%;
+    padding: 120px 0 90px;
+    margin: 100px auto 0;
+    background: url("../images/request_background.png") top no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.request__content {
+    margin: 0 auto;
+    max-width: 808px;
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    background-color: #FBF7F6;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+}
+
+.request__content::before {
+    content: "";
+    width: 495px;
+    height: 495px;
+    position: absolute;
+    top:-295px;
+    left: -346px;
+    background-image: url("../images/request_flower.png");
+    z-index: -1;
+}
+
+.request__content>img {
+    border-radius: 0px 15px 15px 0px;
+    max-width: 50%;
+    width: 100%;
+}
+
+.request__content__inner {
+    padding: 29px 32px 37px 40px;
+    max-width: 50%;
+    width: 100%;
+    
+}
+
+.request__info {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #371030;
+}
+
+.request__form input, textarea {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #371030;
+    background-color: #FBF7F6;
+    margin: 21px 0 0;
+}
+
+.request__form input, textarea::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #371030;
+}
+
+.request__form input:first-child, .request__form input:nth-child(2) {
+    max-width: 144px;
+    width: 100%;
+    margin: 17px 0 0 ;
+}
+.request__form input:first-child{
+    margin: 17px 36px 0 0;
+}
+
+.request__form>textarea {
+    width: 100%;
+    resize: none;
+}
+
+.request__form input:nth-child(3) {
+    width: 100%;
+}
+
+.request__form_btn {
+    max-width: 324px;
+    width: 100%;
+    margin: 23px 0 0;
+    height: 55px;
+    background-color: #FFB0BA;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    border: none;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
